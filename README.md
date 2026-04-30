@@ -128,8 +128,8 @@ age and seasonality data to inform inventory and campaign planning.
 3. Download the dataset files:
    - `articles.csv` and `customers.csv` are included in the `data/` folder
    - `transactions_train.csv` is too large for GitHub (3.7GB) — download it 
-   directly from Kaggle and place it in the `data/` folder:
-   [H&M Personalized Fashion Recommendations](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data)
+   directly from Kaggle and place it in the `data/` folder
+   [[H&M Personalized Fashion Recommendations](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data)].
    You will need to:
       1. Create a free Kaggle account
       2. Accept the H&M competition rules before downloading
