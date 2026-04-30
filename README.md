@@ -10,10 +10,11 @@ fashion retailers.
 ## The Problem
 As someone who loves fashion and shops on a budget, I've always been curious 
 about what actually drives consumer behavior in fast fashion. H&M markets 
-itself as affordable, trendy, and increasingly sustainable, but does the 
-data back that up? Who is their core customer, what do they actually buy, 
-and does H&M's marketing actually influence their spending? These are 
-questions that retailers, marketers, and investors deal with every day.
+itself as affordable, trendy, and increasingly sustainable, but I've analyzed
+H&M's data to see if it actually backs it up. It answers who is their core 
+customer, what do they actually buy, and whether H&M's marketing actually 
+influence their spending. These are things retailers, marketers, and 
+investors deal with every day.
 
 ## How It Works
 The analysis joins 3 datasets using Malloy and DuckDB:
