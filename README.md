@@ -36,7 +36,7 @@ and children's lines, both in store and online, are not significant
 revenue drivers. If H&M were to refocus their entire brand strategy around 
 their actual core customer, women, they would likely see even stronger 
 returns. The data makes it clear that this is where H&M wins.
-![Finding 1](screenshots/Finding1.png)
+![Finding 1](Finding1.png)
 
 **Finding 2: Black is overwhelmingly the #1 color**
 Black accounts for 11 million transactions, whcih is more than triple the second 
@@ -46,7 +46,7 @@ seasonal colors or bold prints, they're buying classic black basics in
 massive volumes year after year. This challenges the common assumption 
 that fast fashion is driven by trend-chasing. The data says it's driven 
 by affordable, timeless staples that customers buy repeatedly.
-![Finding 2](screenshots/Findin2.png)
+![Finding 2](Finding2.png)
 
 **Finding 3: Young customers shop almost exclusively online**
 Every age group from 21-33 shops a great deal through channel 2 (online), 
@@ -56,7 +56,7 @@ embraced digital shopping, which raises serious questions about the ROI
 of maintaining a large physical store footprint. Investing in a seamless 
 digital experience, faster shipping, and easier returns would likely drive 
 more value than opening new store locations.
-![Finding 3](screenshots/Finding3.png)
+![Finding 3](Finding3.png)
 
 **Finding 4: Summer is peak season — October is a surprise spike**
 Transactions steadily increased from January through June, peaking in summer. 
@@ -66,7 +66,7 @@ pattern suggests that H&M should prioritize inventory and marketing spend
 heading into summer, while also preparing for a secondary demand surge in 
 early fall. Failing to do so could potentially mean missing revenue 
 opportunities.
-![Finding 4](screenshots/Finding4.png)
+![Finding 4](Finding4.png)
 
 **Finding 5: Anonymous shoppers rival registered members**
 Active members generate $660K in revenue, but 7.5 million anonymous 
@@ -76,7 +76,7 @@ major opportunity. If H&M could convert even a fraction of them into
 registered members through incentives like discounts or early access 
 to new collections, they would gain valuable behavioral data on a massive 
 and invisible customer segment.
-![Finding 5](screenshots/Finding5.png)
+![Finding 5](Finding5.png)
 
 **Finding 6: Opting out of marketing emails doesn't reduce spending**
 Customers who opted out of fashion news emails generate $371K in revenue 
@@ -86,7 +86,7 @@ touchpoints drive more spending, but the data tells a completely different
 story. Customers who said no to H&M's emails are actually spending more. 
 This raises serious questions about whether H&M's email marketing strategy 
 is effective, or whether it may even be dividing their highest-value customers.
-![Finding 6](screenshots/Finding6.png)
+![Finding 6](Finding6.png)
 
 **Finding 7: 25-27 year olds are H&M's most valuable customers**
 The 25-27 age group dominates both transaction volume and revenue by a 
@@ -95,7 +95,7 @@ findings, H&M's core customer profile becomes clear that a mid-20s woman
 would by affordable black essentials online. Every strategic decision H&M 
 makes, from inventory planning to digital marketing to store design, should 
 be filtered through whether it serves this specific customer.
-![Finding 7](screenshots/Finding7.png)
+![Finding 7](Finding7.png)
 
 **Finding 8: H&M's Conscious Exclusive sustainability line is virtually invisible**
 Even with H&M heavily marketing their commitment to sustainability through 
@@ -110,7 +110,7 @@ of H&M's green marketing. If H&M is serious about sustainability, the data
 suggests they need a different approach to making sustainable options 
 accessible and appealing to their core customer, especially in a society where
 fast fashion is deemed unethical.
-![Finding 8](screenshots/Finding8.png)
+![Finding 8](Finding8.png)
 
 ## What I Learned
 I was most surprised by two findings: opting out of marketing emails 
