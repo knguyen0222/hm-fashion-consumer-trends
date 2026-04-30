@@ -130,6 +130,12 @@ age and seasonality data to inform inventory and campaign planning.
    - `transactions_train.csv` is too large for GitHub (3.7GB) — download it 
    directly from Kaggle and place it in the `data/` folder:
    [H&M Personalized Fashion Recommendations](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data)
+   You will need to:
+   1. Create a free Kaggle account
+   2. Accept the H&M competition rules before downloading
+   3. Download `transactions_train.csv` and place it in the `data/` folder
+
+[H&M Personalized Fashion Recommendations](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data)
 4. Open the project folder in VS Code
 5. Run `explore.malloy` for individual queries
 6. Run `story.malloynb` for the full data story
