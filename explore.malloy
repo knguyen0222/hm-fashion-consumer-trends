@@ -1,0 +1,107 @@
+source: articles is duckdb.table("data/articles.csv") extend {
+}
+
+source: customers is duckdb.table("data/customers.csv") extend {
+}
+
+source: transactions is duckdb.table("data/transactions_train.csv") extend {
+  join_one: articles on article_id = articles.article_id
+  join_one: customers on customer_id = customers.customer_id
+
+  measure: total_transactions is count()
+  measure: total_revenue is price.sum()
+  measure: avg_price is price.avg()
+
+  view: top_departments is {
+    group_by: articles.department_name
+    aggregate: total_transactions, total_revenue
+    order_by: total_revenue desc
+    limit: 10
+  }
+
+  view: top_garment_types is {
+    group_by: articles.garment_group_name
+    aggregate: total_transactions, total_revenue
+    order_by: total_revenue desc
+    limit: 10
+  }
+
+  view: sales_by_channel is {
+    group_by: sales_channel_id
+    aggregate: total_transactions, total_revenue
+    order_by: total_revenue desc
+  }
+
+  view: spending_by_age is {
+    group_by: customers.age
+    aggregate: total_transactions, total_revenue
+    order_by: total_revenue desc
+    limit: 10
+  }
+
+  view: top_products is {
+    group_by: articles.prod_name
+    aggregate: total_transactions, total_revenue
+    order_by: total_revenue desc
+    limit: 10
+  }
+
+  view: age_by_garment is {
+    group_by: customers.age, articles.garment_group_name
+    aggregate: total_transactions
+    order_by: total_transactions desc
+    limit: 15
+  }
+
+  view: membership_analysis is {
+    group_by: customers.club_member_status
+    aggregate: total_transactions, total_revenue, avg_price
+    order_by: total_revenue desc
+  }
+
+  view: fashion_news_impact is {
+    group_by: customers.fashion_news_frequency
+    aggregate: total_transactions, total_revenue, avg_price
+    order_by: total_revenue desc
+  }
+
+  view: top_colors is {
+    group_by: articles.colour_group_name
+    aggregate: total_transactions, total_revenue
+    order_by: total_transactions desc
+    limit: 10
+  }
+
+  view: top_product_groups is {
+    group_by: articles.product_group_name
+    aggregate: total_transactions, total_revenue
+    order_by: total_revenue desc
+    limit: 10
+  }
+
+  view: seasonal_trends is {
+    group_by: sale_month is t_dat::date.month
+    aggregate: total_transactions, total_revenue
+    order_by: sale_month asc
+  }
+
+  view: revenue_by_index is {
+    group_by: articles.index_group_name
+    aggregate: total_transactions, total_revenue, avg_price
+    order_by: total_revenue desc
+  }
+
+  view: online_vs_store_by_age is {
+    group_by: customers.age, sales_channel_id
+    aggregate: total_transactions
+    order_by: total_transactions desc
+    limit: 15
+  }
+
+  view: conscious_vs_regular is {
+    group_by: articles.department_name
+    aggregate: total_transactions, total_revenue, avg_price
+    order_by: total_transactions desc
+    limit: 15
+  }
+}

@@ -1,0 +1,88 @@
+>>>markdown
+# H&M Fashion Consumer Trends
+## *Who is H&M's core customer and what drives their purchasing behavior?*
+
+I was curious whether age, membership status, and demographics could reveal who H&M's core customer really is. Using 31 million transactions joined across 3 datasets, I set out to uncover hidden patterns in fast fashion consumer behavior.
+>>>malloy
+source: articles is duckdb.table("data/articles.csv") extend {
+}
+
+source: customers is duckdb.table("data/customers.csv") extend {
+}
+
+source: transactions is duckdb.table("data/transactions_train.csv") extend {
+  join_one: articles on article_id = articles.article_id
+  join_one: customers on customer_id = customers.customer_id
+
+  measure: total_transactions is count()
+  measure: total_revenue is price.sum()
+  measure: avg_price is price.avg()
+}
+>>>markdown
+### Finding 1: Ladieswear dominates — H&M is fundamentally a women's brand
+>>>malloy
+run: transactions -> {
+  group_by: articles.index_group_name
+  aggregate: total_transactions, total_revenue, avg_price
+  order_by: total_revenue desc
+}
+>>>markdown
+### Finding 2: Black is overwhelmingly the #1 color
+>>>malloy
+run: transactions -> {
+  group_by: articles.colour_group_name
+  aggregate: total_transactions, total_revenue
+  order_by: total_transactions desc
+  limit: 10
+}
+>>>markdown
+### Finding 3: Young customers shop almost exclusively online
+>>>malloy
+run: transactions -> {
+  group_by: customers.age, sales_channel_id
+  aggregate: total_transactions
+  order_by: total_transactions desc
+  limit: 15
+}
+>>>markdown
+### Finding 4: Summer is peak season — October is a surprise spike
+>>>malloy
+run: transactions -> {
+  group_by: sale_month is t_dat::date.month
+  aggregate: total_transactions, total_revenue
+  order_by: sale_month asc
+}
+>>>markdown
+### Finding 5: Active members drive revenue but anonymous shoppers are close behind
+>>>malloy
+run: transactions -> {
+  group_by: customers.club_member_status
+  aggregate: total_transactions, total_revenue, avg_price
+  order_by: total_revenue desc
+}
+>>>markdown
+### Finding 6: Opting out of marketing emails doesn't reduce spending
+>>>malloy
+run: transactions -> {
+  group_by: customers.fashion_news_frequency
+  aggregate: total_transactions, total_revenue, avg_price
+  order_by: total_revenue desc
+}
+>>>markdown
+### Finding 7: 25-27 year olds are H&M's most valuable customers
+>>>malloy
+run: transactions -> {
+  group_by: customers.age
+  aggregate: total_transactions, total_revenue
+  order_by: total_revenue desc
+  limit: 10
+}
+>>>markdown
+### Finding 8: H&M's Conscious Exclusive sustainability line is virtually invisible in sales
+>>>malloy
+run: transactions -> {
+  group_by: articles.department_name
+  aggregate: total_transactions, total_revenue, avg_price
+  order_by: total_transactions desc
+  limit: 15
+}
