@@ -31,12 +31,12 @@ figures by 1000 (e.g. 0.028 = $28.00).
 
 **Finding 1: H&M is fundamentally a women's brand**
 Ladieswear generates $587K in revenue, which is more than triple Divided ($189K) 
-and more than ten times Menswear ($48K). Despite marketing to everyone, 
+and more than ten times Menswear ($48K). Even though they market to everyone, 
 H&M's business is built on female customers. Their menswear 
 and children's lines, both in store and online, are not significant 
 revenue drivers. If H&M were to refocus their entire brand strategy around 
-their actual core customer, women, they would likely see even stronger 
-returns. The data makes it clear that this is where H&M wins.
+their actual core customer, which are women, they would see even stronger 
+returns. The data makes it clear that this is where H&M dominates.
 ![Finding 1](Finding1.png)
 
 **Finding 2: Black is overwhelmingly the #1 color**
@@ -44,7 +44,7 @@ Black accounts for 11 million transactions, whcih is more than triple the second
 most popular color, white, at 3.4 million. Dark blue, beige, and light 
 beige follow behind. H&M's core customer isn't buying trendy 
 seasonal colors or bold prints, they're buying classic black basics in 
-massive volumes year after year. This challenges the common assumption 
+massive volumes continuously. This challenges the common assumption 
 that fast fashion is driven by trend-chasing. The data says it's driven 
 by affordable, timeless staples that customers buy repeatedly.
 ![Finding 2](Finding2.png)
@@ -53,10 +53,10 @@ by affordable, timeless staples that customers buy repeatedly.
 Every age group from 21-33 shops a great deal through channel 2 (online), 
 with virtually no preference for in-store shopping. The shift to e-commerce 
 is overwhelming, especially after 2019. H&M's core demographic has fully 
-embraced digital shopping, which raises serious questions about the ROI 
+shifted to digital shopping, which raises serious questions about the ROI 
 of maintaining a large physical store footprint. Investing in a seamless 
-digital experience, faster shipping, and easier returns would likely drive 
-more value than opening new store locations.
+digital experience, faster shipping, and easier returns would likely produce 
+better results than opening new store locations.
 ![Finding 3](Finding3.png)
 
 **Finding 4: Summer is peak season — October is a surprise spike**
@@ -65,7 +65,7 @@ October also spikes unexpectedly, likely due to the fall collection launches
 and back-to-school shopping among college student customers. This seasonal 
 pattern suggests that H&M should prioritize inventory and marketing spend 
 heading into summer, while also preparing for a secondary demand surge in 
-early fall. Failing to do so could potentially mean missing revenue 
+early fall. Failing to do so could potentially result in missing revenue 
 opportunities.
 ![Finding 4](Finding4.png)
 
@@ -74,7 +74,7 @@ Active members generate $660K in revenue, but 7.5 million anonymous
 transactions generate $208K, whcih is a significant portion of revenue from 
 customers H&M knows nothing about. These mystery shoppers represent a 
 major opportunity. If H&M could convert even a fraction of them into 
-registered members through incentives like discounts or early access 
+registered members through things like discounts or early access 
 to new collections, they would gain valuable behavioral data on a massive 
 and invisible customer segment.
 ![Finding 5](Finding5.png)
@@ -93,7 +93,7 @@ is effective, or whether it may even be dividing their highest-value customers.
 The 25-27 age group dominates both transaction volume and revenue by a 
 significant margin. With the black basics, online shopping, and Ladieswear 
 findings, H&M's core customer profile becomes clear that a mid-20s woman 
-would by affordable black essentials online. Every strategic decision H&M 
+would buy affordable black essentials online. Every strategic decision H&M 
 makes, from inventory planning to digital marketing to store design, should 
 be filtered through whether it serves this specific customer.
 ![Finding 7](Finding7.png)
@@ -121,11 +121,12 @@ more, and I expected some evidence of H&M's sustainability push showing
 up in sales. Neither was true. If I did this again I would look more 
 closely at whether the anonymous shopper group behaves differently by 
 season, and whether sustainability interest has grown over the 2 year 
-period in the dataset.
+period in the dataset. With research and recent findings on fast fashion, 
+it was interesting to see where H&M stood in the industry.
 
 ## Who Would Care
 H&M's marketing and strategy teams would find the email marketing finding 
-directly actionable — if opted-out customers spend just as much, the ROI 
+directly actionable (if opted-out customers spend just as much), the ROI 
 on email campaigns needs to be reconsidered. Sustainability advocates and 
 investors tracking H&M's ESG commitments would find the Conscious Exclusive 
 finding concerning. Fashion analysts and retail strategists would use the 
