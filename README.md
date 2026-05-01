@@ -11,9 +11,9 @@ fashion retailers.
 As someone who loves fashion and shops on a budget, I've always been curious 
 about what actually drives consumer behavior in fast fashion. H&M markets 
 itself as affordable, trendy, and increasingly sustainable, so I've analyzed
-H&M's data to see if it actually backs it up. It answers who is their core 
-customer, what do they actually buy, and whether H&M's marketing actually 
-influence their spending. These are things retailers, marketers, and 
+H&M's data to see if it actually backs it up. It answers who their core 
+customer is, what they actually buy, and whether H&M's marketing actually 
+influences their spending. These are things retailers, marketers, and 
 investors deal with every day.
 
 ## How It Works
